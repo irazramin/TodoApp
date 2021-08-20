@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mini project</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="logo">
+        <img src="/Project/ing.png" alt="LOGO" />
+      </div>
+      <h2 class="headerText" id="headerText">TO-DO APP</h2>
+
+      <div class="new-task">
+        <form>
+          <label for="add">Add Details</label>
+          <input  type="text" id="new-task" />
+          <input type="submit" value="Add Task" />
+        </form>
+      </div>
+      <div class="task">
+        <div class="incom-task">
+          <h3>Incomplete Task</h3>
+          <ul class="items">
+            <li class="item"><input type="checkbox" /> <label for="task-name">Task Name</label></li>
+            <li class="item"><input type="checkbox" /> <label for="task-name">Task Name</label></li>
+            <li class="item"><input type="checkbox" /> <label for="task-name">Task Name</label></li>
+          </ul>
+        </div>
+        <div class="comp-task">
+          <h3>Complete Task</h3>
+          <ul class="items">
+            <li class="item">Task Name <button class="delete">Delete</button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="/Project/app.js"></script>
+  </body>
+</html>
